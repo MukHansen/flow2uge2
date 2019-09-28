@@ -190,7 +190,7 @@ function click() {
     //   document.querySelector("#tableDiv").innerHTML = newNames;
     //  document.getElementById("tableDiv").innerHTML = newTablefunc().join("");
     document.querySelector("#h1").innerHTML = "Opgave 4,c Yo";
-    document.querySelector("#tableDiv").innerHTML = makeTablefunc(myFilteredNames2(deezGivenNames));
+    document.querySelector("#tableDiv").innerHTML = makeTablefunc(myFilteredNames2);
 
 }
 ;

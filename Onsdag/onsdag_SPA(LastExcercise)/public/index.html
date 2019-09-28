@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container" style="width:100%">
+    <table class="table" id="displayTbl">
+
+    </table>
+    <h2>Get user</h2>
+    <button id="refreshbtn">Refresh</button><br><br>
+    <input id="singleUser" placeholder="ID">
+    <button id="singlebtn">Find by ID</button><br><br>
+    <p id="single"></p>
+    <hr>
+
+    <h2>Add user</h2>
+    <input id="userName" placeholder="Name">
+    <input id="userAge" placeholder="Age">
+    <select id="genderDropdown">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <input id="userEmail" placeholder="Email">
+    <button id="addbtn">Add user</button><br><br>
+
+    <hr>
+
+    <h2>Delete user</h2>
+    <input id="deleteID" placeholder="ID">
+    <button id="deletebtn">Delete user</button><br><br>
+
+    <hr>
+    <button id="allbtn">Get all users</button>
+    <div id="tableDiv"></div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
